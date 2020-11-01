@@ -138,7 +138,7 @@
 
 .header__slider {
     position: relative;
-    max-width: 1300px;
+    max-width: 1200px;
     height: 100vh;
     background-position:  center top;
     background-size: cover;
@@ -146,6 +146,15 @@
     padding: 0;
     z-index: 100;
 }
+
+.header__slider-2{
+    background-image: url(../images/header/bg-2.png);
+}
+
+.header__slider-1{
+    background-image: url(../images/header/bg-1.png);
+}
+.h
 .header__info-one {
     max-width: 480px;
     text-align: center;
