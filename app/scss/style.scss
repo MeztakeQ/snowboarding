@@ -705,6 +705,40 @@
     }
     
 }
+@media (max-width: 888px){
+    .header__info-title--white{
+        font-size: 60px;
+       
+    }
+    .header__info-title--black{
+        font-size: 60px;
+       
+    }
+
+    .header__info-link{
+        align-items: center;
+        float: none;
+        position: relative;
+        right: -10%;
+    }
+
+    .header__info-one{
+        left: 20%;
+        top: 30%;
+       
+      
+    }
+
+    .header__info-two{
+        left: 20%;
+        top: 30%;
+        
+       
+      
+    }
+    
+   
+}
 
 @media (max-width: 748px){
     .header__info-title--white{
@@ -724,9 +758,76 @@
     }
 }
 
+@media (max-width: 591px){
+    .header__info-title--white{
+        font-size: 60px;
+       
+    }
+    .header__info-title--black{
+        font-size: 60px;
+       
+    }
+
+    .header__info-link{
+        align-items: center;
+        float: none;
+        position: relative;
+        right: -10%;
+    }
+
+    .header__info-one{
+        left: 5%;
+        top: 30%;
+       
+      
+    }
+
+    .header__info-two{
+        left: 5%;
+        top: 30%;
+        
+       
+      
+    }
+}
+
 @media (max-width: 525px){
     .header__slider{
-        background-position:   right;
+        background-position:  left;
+        background-size: cover;
+    }
+    .header__info-one{
+        left: 5%;
+        top: 40%;
+      
+    }
+
+    .header__info-two{
+        left: 5%;
+        top: 40%;
+       
+      
+    }
+    .header__info-title--white{
+        
+        font-size: 50px;
+       
+       
+       
+    }
+    .header__info-title--black{
+        font-size: 50px;
+       
+       
+      
+       
+    }
+
+    .header__info-link{
+        align-items: center;
+        float: none;
+        position: relative;
+        right: 5%;
     }
 }
 
@@ -735,24 +836,16 @@
 
     .header__info-one{
         left: 5%;
-       
-      
     }
 
     .header__info-two{
-        left: 5%;
-       
-      
+        left: 5%; 
     }
     .header__info-title--white{
-        font-size: 40px;
-        max-width: 320px;
-       
+        font-size: 50px;   
     }
     .header__info-title--black{
-        font-size: 40px;
-        max-width: 320px;
-       
+        font-size: 50px;   
     }
 
     .header__info-link{
@@ -798,7 +891,28 @@
         text-align: center;
         align-items: center;
         text-align: center;
+    }   
+}
+
+@media (max-width: 380px){
+    .header__info-one{
+        left: 5%;
     }
 
-    
+    .header__info-two{
+        left: 5%; 
+    }
+    .header__info-title--white{
+        font-size: 40px;   
+    }
+    .header__info-title--black{
+        font-size: 40px;   
+    }
+
+    .header__info-link{
+        align-items: center;
+        float: none;
+        position: relative;
+        right: 5%;
+    }
 }
